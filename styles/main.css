@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: #e2e5e9;
+    background-image: url("/images/foto-headerC.jpg");
+    background-size: cover;
+
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header .header-container {
+    margin: 30px 200px;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid #e2e5e9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section {
+    background-color: #C5CBFF;
+    color: #052d63;
+    display: flex;
+}
+
+.first-section .primeiro {
+    padding: 30px;
+}
+
+.first-section .segundo {
+    padding: 30px;
+}
+
+.first-section h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.second-section {
+    display: flex;
+    height: 300px;
+}
+.second-section > div {
+    flex: 1;
+}
+
+section > .primeiro-baixo {
+    background-image: url(/images/foto-footer2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+section > .segundo-baixo {
+    background-image: url(/images/foto-footer1.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+.segundo-baixo > h2 {
+    color: #C5CBFF;
+ 
+}
+
+.segundo-baixo > button {
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 775px){
+   .header-container > h1 {
+    font-size: 20px;
+   }
+
+   .header-container > h3 {
+    font-size: 15px
+   }
+}
+
+@media screen and (max-width: 645px){
+    .first-section {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .second-section {
+        font-size: 80%;
+    }
+    
+}
